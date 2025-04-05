@@ -37,7 +37,7 @@ int main( void ) {
 		file << *it;
 		++it;
 		if (it != uniqueNumbers.end()) {
-			file << separator;  // Separate numbers by commas
+			file << separator;
 		}
 	}
 
