@@ -6,7 +6,7 @@ it's simple to use and output the result on a 'txt' file.
 ## Starting
 To run and use the program, simply follow the instructions:
 ```
-make # This command builds the program.
+make # This command build the program.
 
 # make sure you have the cpp compiler installed on your machine.
 ```
