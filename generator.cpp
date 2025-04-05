@@ -18,7 +18,6 @@ int main() {
     // Use a set to automatically remove duplicates
     std::set<int> uniqueNumbers;
 
-    // Generate 10k+ random numbers and insert them into the set
     for (int i = 0; i < numbersToGenerate + (numbersToGenerate / 2); ++i) {
 		// Random number between 1 and numbersToGenerate * 2;
         uniqueNumbers.insert(rand() % (numbersToGenerate * 2) + 1);
