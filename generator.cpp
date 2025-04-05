@@ -6,13 +6,17 @@
 
 using namespace std;
 
-int main() {
-	int	numbersToGenerate;
-	std::set<int> uniqueNumbers;
+int main( void ) {
+	int				numbersToGenerate;
+	std::string		separator;
+	std::set<int>	uniqueNumbers;
 
 	std::cout << "How many numbers you want to generate? (approximatively not exact number)";
 	std::cout << std::endl;
 	cin >> numbersToGenerate; cin.ignore();
+
+	std::cout << "Type the separator you want to use?" << std::endl;
+	cin >> separator; cin.ignore();
 
 	srand(static_cast<unsigned int>(time(0)));
 
@@ -33,7 +37,7 @@ int main() {
 		file << *it;
 		++it;
 		if (it != uniqueNumbers.end()) {
-			file << ",";  // Separate numbers by commas
+			file << separator;  // Separate numbers by commas
 		}
 	}
 
