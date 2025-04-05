@@ -16,7 +16,7 @@ int main( void ) {
 	cin >> numbersToGenerate; cin.ignore();
 
 	std::cout << "Type the separator you want to use?" << std::endl;
-	cin >> separator; cin.ignore();
+	std::getline(cin, separator, '\n');
 
 	srand(static_cast<unsigned int>(time(0)));
 
