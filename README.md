@@ -1,6 +1,6 @@
 # Random unique numbers generator
 
-This program helps you to generate a sequence of unique random numbers. Built with Cpp language,
+This program helps you to generate a sequence of unique random numbers separated by any set of characters you want. Built with Cpp language,
 it's simple to use and output the result on a 'txt' file.
 
 ## Starting
